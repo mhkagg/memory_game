@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(205, 103, 63);
+}
+
+h1{
+    font-family: 'Borel', cursive;
+    font-size: 110px;
+    margin-bottom: 0px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    font-size: 55px;
+    font-family: 'Borel', cursive;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 9px;
+}
+
+.main:hover{
+    color: rgba(255, 255, 255, 0.732);
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: 20rem 20rem;
+    grid-template-rows: 20rem 20rem ;
+    justify-content: center;
+    place-items: center;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+img{
+    width: 260px;
+    border-radius: 50%;
+}
+
+.fail{
+    background-color: red;
+    opacity: 0.8;
+}
+
+
+button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;    
+    border-radius: 50%;
+
+}
+
+
+  
